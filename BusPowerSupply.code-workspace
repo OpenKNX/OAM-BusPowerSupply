@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../OFM-BusPowerSupply"
+		},
+		{
+			"path": "../OFM-LogicModule"
+		},
+		{
+			"path": "../OFM-FileTransferModule"
+		},
+		{
+			"path": "../OGM-Common"
+		},
+		{
+			"path": "../knx"
+		},
+		{
+			"path": "../OFM-ConfigTransfer"
+		}
+	],
+	"settings": {}
+}
