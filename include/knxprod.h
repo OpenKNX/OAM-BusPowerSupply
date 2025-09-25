@@ -151,10 +151,13 @@
 
 
 
-#define BPS_VisibleChannels                     110      // uint8_t
+#define BPS_ResetTime                           110      // uint8_t
+#define BPS_TemperatureWarning                  110      // uint8_t
 
-// Verfügbare Kanäle
-#define ParamBPS_VisibleChannels                     (knx.paramByte(BPS_VisibleChannels))
+// Resetzeit
+#define ParamBPS_ResetTime                           (knx.paramByte(BPS_ResetTime))
+// Temperaturwarnung ab
+#define ParamBPS_TemperatureWarning                  (knx.paramByte(BPS_TemperatureWarning))
 
 #define BPS_KoCentralFunction 20
 
