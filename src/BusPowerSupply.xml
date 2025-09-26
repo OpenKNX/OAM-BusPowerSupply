@@ -8,16 +8,16 @@
   <op:nowarn id="1" regex="BPS_ReplacesVersions" />
 
   <op:ETS OpenKnxId="0xAF"
-    ApplicationNumber="0x02"
-    ApplicationVersion="0.1"
-    ReplacesVersions="0.0"
+    ApplicationNumber="0x08"
+    ApplicationVersion="0.2"
+    ReplacesVersions="0.1"
     ApplicationRevision="0"
-    ProductName="Busstromversorgung"
+    ProductName="Busspannungsversorgung"
     ApplicationName="AB-BusPowerSupply-Logic"
     BuildSuffix="-dev"
     BuildSuffixText=" (dev)"
     OrderNumber="OpenKnxBusPowerSupply"
-    BaggagesRootDir="A6/02"
+    BaggagesRootDir="A6/08"
   />
   <op:define prefix="BASE" ModuleType="10"
              share="../lib/OGM-Common/src/Common.share.xml">

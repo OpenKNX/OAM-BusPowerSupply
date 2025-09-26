@@ -9,11 +9,11 @@
                                          (time & 0x3FFF) * 3600000 ) : 0 )
                                              
 #ifndef FIRMWARE_NAME
-    #define FIRMWARE_NAME "Busstromversorgung (dev)"
+    #define FIRMWARE_NAME "Busspannungsversorgung (dev)"
 #endif
 #define MAIN_OpenKnxId 0xAF
-#define MAIN_ApplicationNumber 2
-#define MAIN_ApplicationVersion 1
+#define MAIN_ApplicationNumber 8
+#define MAIN_ApplicationVersion 2
 #define MAIN_ApplicationEncoding iso-8859-15
 #define MAIN_ParameterSize 3393
 #define MAIN_MaxKoNumber 58
@@ -264,6 +264,9 @@
 #define BPS_KoAuxVoltage 23
 #define BPS_KoAuxCurrent 24
 #define BPS_KoTemperature 25
+#define BPS_KoBusReset 26
+#define BPS_KoPowerSupply1Status 27
+#define BPS_KoPowerSupply2Status 28
 
 // Busspannung
 #define KoBPS_BusVoltage                          (knx.getGroupObject(BPS_KoBusVoltage))
@@ -277,6 +280,12 @@
 #define KoBPS_AuxCurrent                          (knx.getGroupObject(BPS_KoAuxCurrent))
 // Temperatur
 #define KoBPS_Temperature                         (knx.getGroupObject(BPS_KoTemperature))
+// Bus-Reset
+#define KoBPS_BusReset                            (knx.getGroupObject(BPS_KoBusReset))
+// Status Netzteil 1
+#define KoBPS_PowerSupply1Status                  (knx.getGroupObject(BPS_KoPowerSupply1Status))
+// Status Netzteil 2
+#define KoBPS_PowerSupply2Status                  (knx.getGroupObject(BPS_KoPowerSupply2Status))
 
 #define LOG_BuzzerInstalled                     124      // 1 Bit, Bit 7
 #define     LOG_BuzzerInstalledMask 0x80

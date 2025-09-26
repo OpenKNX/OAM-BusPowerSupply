@@ -1,6 +1,6 @@
 # OAM-BusPowerSupply
 
-OpenKNX Firmware und Anwendung für Busstromversorgungen.
+OpenKNX Firmware und Anwendung für Busspannungsversorgungen.
 
 ## Inbetriebnahme
 
@@ -10,4 +10,4 @@ Die Inbetriebnahme geht am einfachsten mit der [OpenKNX Toolbox](https://github.
 
 Aktuell ist folgende Hardware kompatibel:
 
-* [1280 mA Busstromversorgung im 6 TE Schaltschrankgehäuse, optional redundant](https://www.ab-smarthouse.com/produkt-kategorie/openknx/)
+* [1280 mA Busspannungsversorgung im 6 TE Schaltschrankgehäuse, optional redundant](https://www.ab-smarthouse.com/produkt-kategorie/openknx/)
