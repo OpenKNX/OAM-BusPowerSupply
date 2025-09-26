@@ -22,5 +22,13 @@
 			"path": "../OFM-ConfigTransfer"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"chrono": "cpp",
+			"optional": "cpp",
+			"regex": "cpp",
+			"system_error": "cpp",
+			"format": "cpp"
+		}
+	}
 }
