@@ -1,6 +1,7 @@
 #include "Logic.h"
 #include "BusPowerSupplyModule.h"
 #include "FileTransferModule.h"
+#include "FunctionBlocksModule.h"
 #include "OpenKNX.h"
 #include "hardware.h"
 
@@ -12,10 +13,12 @@ void setup()
     openknx.addModule(1, openknxLogic);
     openknx.addModule(2, openknxBusPowerSupplyModule);
     openknx.addModule(3, openknxFileTransferModule);
+    openknx.addModule(4, openknxFunctionBlocksModule);
     openknx.setup();
 }
 
 void loop()
 {
     openknx.loop();
+    openknxBusPowerSupplyModule.loop();
 }
