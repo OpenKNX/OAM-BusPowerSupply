@@ -1,8 +1,8 @@
 #pragma once
 
-#define MAIN_Version "8206c8d"
+#define MAIN_Version "a3e66fa"
 #define KNX_Version "2.2.2+ee3c00e"
-#define MODULE_BusPowerSupply_Version "0.1.0+0d8aa35"
+#define MODULE_BusPowerSupply_Version "0.1.0+a49971a"
 #define MODULE_BusPowerSupply_Version_Major 0
 #define MODULE_BusPowerSupply_Version_Minor 1
 #define MODULE_BusPowerSupply_Version_Revision 0
