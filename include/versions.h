@@ -1,13 +1,13 @@
 #pragma once
 
-#define MAIN_Version "8823f41"
-#define KNX_Version "2.2.2+288b299"
-#define MODULE_BusPowerSupply_Version "0.1.0+1e432d3"
+#define MAIN_Version "83e1c70"
+#define KNX_Version "2.2.2+f6111d3"
+#define MODULE_BusPowerSupply_Version "0.1.0+ecbca9b"
 #define MODULE_BusPowerSupply_Version_Major 0
 #define MODULE_BusPowerSupply_Version_Minor 1
 #define MODULE_BusPowerSupply_Version_Revision 0
 #define MODULE_BusPowerSupply_ETS 1
-#define MODULE_Common_Version "1.6.0+86b8cad"
+#define MODULE_Common_Version "1.6.0+710f664"
 #define MODULE_Common_Version_Major 1
 #define MODULE_Common_Version_Minor 6
 #define MODULE_Common_Version_Revision 0
