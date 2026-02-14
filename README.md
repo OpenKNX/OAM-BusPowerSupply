@@ -4,10 +4,8 @@ OpenKNX Firmware und Anwendung für Busspannungsversorgungen.
 
 ## Inbetriebnahme
 
-Die Inbetriebnahme geht am einfachsten mit der [OpenKNX Toolbox](https://github.com/OpenKNX/OpenKNX/wiki/Verwendung-der-OpenKNX-Toolbox).
+Die Inbetriebnahme geht am einfachsten mit der [OpenKNX Toolbox](https://openknx.atlassian.net/wiki/spaces/OpenKNX/pages/66295/OpenKNX-Toolbox).
 
 ## Kompatible Hardware
 
-Aktuell ist folgende Hardware kompatibel:
-
-* [1280 mA Busspannungsversorgung im 6 TE Schaltschrankgehäuse, optional redundant](https://www.ab-smarthouse.com/produkt-kategorie/openknx/)
+Eine Funktionsbeschreibung sowie kompatible Hardware findet sich [hier](https://openknx.atlassian.net/wiki/spaces/OpenKNX/pages/500989953/Busspannungsversorgung).
